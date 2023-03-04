@@ -23,9 +23,6 @@ buttons.forEach((item) => {
       display.innerText = "Empty!";
       setTimeout(() => (display.innerText = ""), 2000);
     } 
-	else if(item.id == "("){
-	    item.id == "*";
-	}
 	else {
       display.innerText += item.id;
     }
